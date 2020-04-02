@@ -1,0 +1,12 @@
+#配置静态文件
+spring:
+  #resources:
+    # 默认值为 classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/
+    #static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/,classpath:/webapp/
+  mvc:
+   view:
+    prefix: /
+    suffix: .jsp
+
+application:
+      message: Hello Phil
