@@ -1,7 +1,7 @@
 package com.learn.controller;
 
 import com.learn.entity.User;
-import com.learn.exception.ParamaErrorException;
+import com.learn.filter1.ParamaErrorException;
 import com.learn.pojo.ResponseResult;
 import com.learn.pojo.ResultEnum;
 import org.springframework.validation.annotation.Validated;
@@ -12,7 +12,7 @@ import javax.validation.Valid;
 @RestController
 public class TestController {
 
-    @GetMapping("/aa/hello")
+   /* @GetMapping("/aa/hello")
     public String hello1(){
         return "hello world! aa";
     }
@@ -26,7 +26,7 @@ public class TestController {
     @Validated
     public String hello3(){
         return "hello world! cc";
-    }
+    }*/
 
 
     /**

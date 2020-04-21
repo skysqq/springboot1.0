@@ -1,5 +1,6 @@
-package com.learn.exception;
+package com.learn.valid;
 
+import com.learn.filter1.ParamaErrorException;
 import com.learn.pojo.ResponseResult;
 import com.learn.pojo.ResultEnum;
 import lombok.extern.slf4j.Slf4j;
@@ -18,7 +19,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 import java.util.List;
 
 @Slf4j
-@RestControllerAdvice("com.learn.exception")
+@RestControllerAdvice("com.learn")
 public class GlobalExceptionHandler {
     /**
      * 忽略参数异常处理器

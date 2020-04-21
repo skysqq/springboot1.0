@@ -5,7 +5,7 @@ package com.learn.pojo;
  */
 public enum ResultEnum {
     SUCCESS(200,"请求成功"),
-    PARAMETER_ERROR(1001,"参数请求错误!"),
+    PARAMETER_ERROR(400,"参数请求错误!"),
     UNKNOWN_ERROR(500,"未知的错误!");
 
     private Integer code;

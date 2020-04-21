@@ -8,12 +8,12 @@ import javax.validation.Valid;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 
-@Getter
-@Setter
+/*@Getter
+@Setter*/
 @Data
 public class User {
     @NotBlank(message = "姓名不能为空")
-    private String userName;
+    private String username;
 
     @NotBlank(message = "密码不能为空")
     private String password;

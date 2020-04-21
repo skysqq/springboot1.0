@@ -7,8 +7,8 @@ import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
 import java.io.IOException;
 
-@Order(1)
-@WebFilter(filterName = "myfilter",urlPatterns = {"/aa/*","/bb/*"},description = "自定义过滤器")
+/*@Order(1)
+@WebFilter(filterName = "myfilter",urlPatterns = {"/aa/*","/bb/*"},description = "自定义过滤器")*/
 public class MyCustomFilter2 implements Filter {
 
     @Override
